@@ -3,7 +3,7 @@ name: K8s Demo Workflow
 on: 
   push:
     branches:
-      - github-actions-demo
+      - main
 
 jobs:
   deploy-code:
